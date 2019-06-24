@@ -1992,8 +1992,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="LDO" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_SPX3819" device="-SOT23-5" package3d_urn="urn:adsk.eagle:package:39060/1" value="MCP1711T"/>
-<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100n"/>
-<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100n"/>
+<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100nF"/>
+<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100nF"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -2007,7 +2007,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="27.94" y="203.2" size="3.048" layer="94" ratio="12">Greg Cope</text>
 <text x="138.43" y="203.2" size="3.048" layer="94" ratio="12">R1</text>
-<text x="27.94" y="208.28" size="4.572" layer="94" ratio="15">MoteinoM0 CAM-M8 Breakout</text>
+<text x="27.94" y="208.28" size="4.572" layer="94" ratio="15">MoteinoM0 CAM-M8Q Breakout</text>
 </plain>
 <instances>
 <instance part="SUPPLY33" gate="GND" x="119.38" y="104.14" smashed="yes">

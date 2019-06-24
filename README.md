@@ -13,7 +13,10 @@ A green LED is connected to the TIMEPULSE output (1 pulse per second, synchroniz
 * [CAM-M8Q - UK Link](https://www.tme.eu/gb/details/cam-m8q/gnss-gps-glonass-beidou-modules/u-blox)
 * MCP 1711 LDO
 * 0603 100nF SMD Capacitors
+* 0603 4.7uF SMD Capacitor
 * 0603 220 Ohm SMD Resistors
 * 0603 Green SMD LED
 
-*
+# Other Resources
+* Easyeda board: https://easyeda.com/granbobbi22/MAX-M8Q-Minimal-Breakout
+* Watterott board: https://github.com/watterott/CAM-M8Q-Breakout/blob/master/hardware/CAM-M8Q-Breakout_v11.pdf

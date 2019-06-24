@@ -23,4 +23,4 @@ A green LED is connected to the TIMEPULSE output (1 pulse per second, synchroniz
 
 # Schematic / Board
 ![Schematic](/MoteinoM0CAM-M8-sch.png)
-![Board](/MoteinoM0CAM-M8-brd.png | width=200)
+![Board](/MoteinoM0CAM-M8-brd.png =200x)

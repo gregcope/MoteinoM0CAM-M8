@@ -20,3 +20,7 @@ A green LED is connected to the TIMEPULSE output (1 pulse per second, synchroniz
 # Other Resources
 * Easyeda board: https://easyeda.com/granbobbi22/MAX-M8Q-Minimal-Breakout
 * Watterott board: https://github.com/watterott/CAM-M8Q-Breakout/blob/master/hardware/CAM-M8Q-Breakout_v11.pdf
+
+# Schematic / Board
+![Schematic](/MoteinoM0CAM-M8-sch.png)
+![Board](/MoteinoM0CAM-M8-brd.png)

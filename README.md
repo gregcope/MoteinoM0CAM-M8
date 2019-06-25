@@ -1,10 +1,9 @@
 # MoteinoM0CAM-M8
-Moteino M0 CAM-M8 GNS breakout board
+A [Moteino M0](https://lowpowerlab.com/guide/moteino/moteinom0/) [Breakout board](https://lowpowerlab.com/guide/moteino/m0-sensor-shields/) for a uBlox [CAM-M8Q](https://www.u-blox.com/en/product/cam-m8-series) GNSS module.  This module has an integrated GNSS chip antenna.  The board also containers an MCP 1711 Low DropOut regulator to power the module.  The battery backup (V_BCKP) is constantly powered by the Moteino M0 3.3v.
 
-# Intro
-A [Moteino M0](https://lowpowerlab.com/guide/moteino/moteinom0/) [Breakout board](https://lowpowerlab.com/guide/moteino/m0-sensor-shields/) for a uBlox [CAM-M8Q module](https://www.u-blox.com/en/product/cam-m8-series).  This module has an integrated GNSS chip antenna.  The board also containers an MCP 1711 Low DropOut regulator to power the module.  The battery backup (V_BCKP) is constantly powered by the Moteino M0 3.3v.
+A green LED is connected to the TIMEPULSE output (1 pulse per second, synchronized at rising edge, pulse length 100 ms) as a visual fix indicator.
 
-A green LED is connected to the TIMEPULSE output (1 pulse per second, synchronized at rising edge, pulse length 100 ms)
+The LDO Enable pin (to power the main module down), TIMEPULSE and LNA Enable are connected to Moteino pins.
 
 # Setup
 * git clone https://github.com/u-blox/CadSoft-Eagle-Library and copy the ubloxLib.lbr to ~/Documents/eagle/libraries so that you have the CAM-M8Q part.

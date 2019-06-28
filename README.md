@@ -19,6 +19,7 @@ The LDO Enable pin (to power the main module down), TIMEPULSE and LNA Enable are
 # Other Resources
 * Easyeda board: https://easyeda.com/granbobbi22/MAX-M8Q-Minimal-Breakout
 * Watterott board: https://github.com/watterott/CAM-M8Q-Breakout/blob/master/hardware/CAM-M8Q-Breakout_v11.pdf
+* CAM-M8 Hardware Integration Manual : https://www.u-blox.com/sites/default/files/CAM-M8-FW3_HardwareIntegrationManual_%28UBX-15030063%29.pdf
 
 # Schematic / Board
 ![Schematic](/MoteinoM0CAM-M8-sch.png)

@@ -2197,8 +2197,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="132.08" y="111.76"/>
 <wire x1="119.38" y1="111.76" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY33" gate="GND" pin="GND"/>
-<wire x1="119.38" y1="106.68" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
-<junction x="119.38" y="106.68"/>
 </segment>
 <segment>
 <pinref part="LDO" gate="G$1" pin="GND"/>
@@ -2437,7 +2435,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="104,1,132.08,111.76,U$1,GND$13,GND,,,"/>
 <approved hash="104,1,134.62,111.76,U$1,GND$14,GND,,,"/>
 <approved hash="202,1,88.9,132.08,U$1,!SAFEBOOT,,,,"/>
-<approved hash="202,1,33.02,134.62,LDO,BP,,,,"/>
+<approved hash="202,1,63.5,101.6,LDO,BP,,,,"/>
 <approved hash="106,1,57.15,186.69,D10,,,,,"/>
 <approved hash="106,1,19.05,181.61,SCL,,,,,"/>
 <approved hash="106,1,19.05,184.15,SDA,,,,,"/>

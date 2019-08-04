@@ -16,12 +16,16 @@ The LDO Enable pin (to power the main module down), TIMEPULSE and LNA Enable are
 * 0603 220 Ohm SMD Resistors
 * 0603 Green SMD LED
 
-
-
+Design Notes
+* Search the [CAM-M8 Hardware Integration Manual](https://www.u-blox.com/sites/default/files/CAM-M8-FW3_HardwareIntegrationManual_%28UBX-15030063%29.pdf) for the following referances
+** 220R Resitors on RXD and TXD as recommended here; 'To avoid interference by improperly shielded lines, it is recommended to use resistors' and section 2.2 'Minimal Design'
+** 4.7uF from Section 2.2 'Minimal Design'
+* The Regulator needs to supply 71mA max on CAM-8 startup (see 4.3 Indicative power requirements from the data sheet)
 
 # Other Resources
 * Easyeda board: https://easyeda.com/granbobbi22/MAX-M8Q-Minimal-Breakout
 * Watterott board: https://github.com/watterott/CAM-M8Q-Breakout/blob/master/hardware/CAM-M8Q-Breakout_v11.pdf
+* CAM-M8u-blox M8 Data Sheet : https://www.u-blox.com/sites/default/files/CAM-M8-FW3_DataSheet_%28UBX-15031574%29.pdf
 * CAM-M8 Hardware Integration Manual : https://www.u-blox.com/sites/default/files/CAM-M8-FW3_HardwareIntegrationManual_%28UBX-15030063%29.pdf
 
 # Schematic / Board

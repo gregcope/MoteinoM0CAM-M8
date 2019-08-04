@@ -10,11 +10,14 @@ The LDO Enable pin (to power the main module down), TIMEPULSE and LNA Enable are
 
 # BOM
 * [CAM-M8Q - UK Link](https://www.tme.eu/gb/details/cam-m8q/gnss-gps-glonass-beidou-modules/u-blox)
-* MCP 1711 LDO
-* 0603 100nF SMD Capacitors
-* 0603 4.7uF SMD Capacitor
+* [Microchip Tech MCP1711T-33I/OT](https://lcsc.com/product-detail/Others_Microchip-Tech_MCP1711T-33I-OT_Microchip-Tech-MCP1711T-33I-OT_C79527.html)
+* [0603 100nF SMD Capacitors](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104J250CT_C237171.html)
+* [0603 4.7uF SMD Capacitor](https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603N4R7C500CT_C314302.html)
 * 0603 220 Ohm SMD Resistors
 * 0603 Green SMD LED
+
+
+
 
 # Other Resources
 * Easyeda board: https://easyeda.com/granbobbi22/MAX-M8Q-Minimal-Breakout

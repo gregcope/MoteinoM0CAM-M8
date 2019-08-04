@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2039,6 +2039,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 <class number="1" name="power" width="0.381" drill="0">
 <clearance class="1" value="0.254"/>
+</class>
+<class number="2" name="pour" width="0.254" drill="0">
+<clearance class="2" value="0.254"/>
 </class>
 </classes>
 <parts>

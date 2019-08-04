@@ -17,11 +17,11 @@ The LDO Enable pin (to power the main module down), TIMEPULSE and LNA Enable are
 * [0603 Green SMD LED](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603-green_C205443.html)
 
 Design Notes
-* Search the [CAM-M8 Hardware Integration Manual](https://www.u-blox.com/sites/default/files/CAM-M8-FW3_HardwareIntegrationManual_%28UBX-15030063%29.pdf) for the following referances
+* Search the [CAM-M8 Hardware Integration Manual](https://www.u-blox.com/sites/default/files/CAM-M8-FW3_HardwareIntegrationManual_%28UBX-15030063%29.pdf) for the following referances:
 * 220R Resitors on RXD and TXD as recommended here; 'To avoid interference by improperly shielded lines, it is recommended to use resistors' and section 2.2 'Minimal Design'
 * 4.7uF from Section 2.2 'Minimal Design'
-* The Regulator needs to supply 71mA max on CAM-8 startup (see 4.3 Indicative power requirements from the data sheet)
-* Search the [MCP1711 Datasheet](https://datasheet.lcsc.com/szlcsc/Microchip-Tech-MCP1711T-33I-OT_C79527.pdf) for the following referances
+* The Regulator needs to supply 71mA max on CAM-8 startup (see 4.3 Indicative power requirements from the datasheet)
+* Search the [MCP1711 Datasheet](https://datasheet.lcsc.com/szlcsc/Microchip-Tech-MCP1711T-33I-OT_C79527.pdf) for the following referances:
 * The MCP1711 was chosen as it has an enable pin and low quiescent curent draw
 * The 0.1uF input and output capacitor see 'For most applications, 0.1 µF of capacitance will ensure stable operation of the LDO circuit. If the output capacitor is used, the input capacitor should have a capacitance value equa' is from section 3.1 Unregulated Input Voltage(Vin)
 

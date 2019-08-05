@@ -974,6 +974,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="3.302" y="9.906" extent="1-16" drill="0.35"/>
 <via x="3.302" y="14.986" extent="1-16" drill="0.35"/>
 <via x="4.445" y="19.304" extent="1-16" drill="0.35"/>
+<via x="18.542" y="18.796" extent="1-16" drill="0.35"/>
+<wire x1="18.669" y1="16.129" x2="18.542" y2="18.796" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U$18" pad="4"/>
@@ -1148,9 +1150,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="7.112" y1="0" x2="7.112" y2="3.048" width="0.1524" layer="1"/>
 <wire x1="7.112" y1="3.048" x2="7.151" y2="3.048" width="0.1524" layer="1"/>
 <wire x1="7.112" y1="0" x2="7.088" y2="0" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$13">
-<via x="18.542" y="18.796" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

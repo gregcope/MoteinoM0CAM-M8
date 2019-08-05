@@ -1,5 +1,5 @@
 # MoteinoM0CAM-M8
-A [Moteino M0](https://lowpowerlab.com/guide/moteino/moteinom0/) [Breakout board](https://lowpowerlab.com/guide/moteino/m0-sensor-shields/) for a uBlox [CAM-M8Q](https://www.u-blox.com/en/product/cam-m8-series) GNSS module.  This module has an integrated GNSS chip antenna.  The board also containers an MCP 1711 Low DropOut regulator to power the module.  The battery backup (V_BCKP) is constantly powered by the Moteino M0 3.3v.
+A [Moteino M0](https://lowpowerlab.com/guide/moteino/moteinom0/) [Breakout board](https://lowpowerlab.com/guide/moteino/m0-sensor-shields/) for a uBlox [CAM-M8Q](https://www.u-blox.com/en/product/cam-m8-series) GNSS module.  This module has an integrated GNSS chip antenna.  The board also containers an MCP 1711 Low DropOut regulator to power the module from Moteino M0 VCC.  The battery backup (V_BCKP) is constantly powered by the Moteino M0 3.3v.
 
 A green LED is connected to the TIMEPULSE output (1 pulse per second, synchronized at rising edge, pulse length 100 ms) as a visual fix indicator.
 

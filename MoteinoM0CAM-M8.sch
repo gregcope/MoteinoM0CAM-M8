@@ -2063,18 +2063,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="GREEN"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="220OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="220"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="220OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="220"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="220OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="220"/>
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="27.94" y="203.2" size="3.048" layer="94" ratio="12">Greg Cope</text>
-<text x="138.43" y="203.2" size="3.048" layer="94" ratio="12">R1</text>
+<text x="138.43" y="203.2" size="3.048" layer="94" ratio="12">R2</text>
 <text x="27.94" y="208.28" size="4.572" layer="94" ratio="15">MoteinoM0 CAM-M8Q Breakout</text>
 </plain>
 <instances>
@@ -2125,10 +2125,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY1" gate="GND" x="15.24" y="173.99" smashed="yes">
 <attribute name="VALUE" x="13.335" y="170.815" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="71.12" y="139.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="66.548" y="143.129" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="66.548" y="137.795" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
 <instance part="R1" gate="G$1" x="81.28" y="154.94" smashed="yes">
 <attribute name="NAME" x="81.28" y="156.464" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="81.28" y="153.416" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -2147,6 +2143,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="SUPPLY5" gate="GND" x="43.18" y="105.41" smashed="yes">
 <attribute name="VALUE" x="41.275" y="102.235" size="1.778" layer="96"/>
+</instance>
+<instance part="D1" gate="G$1" x="71.12" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="66.548" y="143.129" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="66.548" y="137.795" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -2330,9 +2330,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$17" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="66.04" y1="139.7" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
 <label x="60.96" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="D11_LNA_EN" class="0">
@@ -2407,8 +2407,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$4" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="76.2" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
